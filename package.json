@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "prepublishOnly": "npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "vitest run"
   },
   "keywords": [
     "superinstance",
@@ -21,11 +22,9 @@
   ],
   "author": "SuperInstance Ecosystem",
   "license": "MIT",
-  "dependencies": {
-    "@superinstance/starter-agent": "^1.0.0"
-  },
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
   },
   "peerDependencies": {
     "typescript": ">=4.9.0"
