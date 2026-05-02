@@ -2,9 +2,8 @@
 
 > Equipment for orchestrating multiple agents in origin-centric networks with asymmetrical knowledge distribution.
 
-## Overview
-
-The `@superinstance/equipment-swarm-coordinator` is a comprehensive solution for coordinating multiple AI agents in complex distributed workflows. It implements origin-centric coordination where each agent maintains provenance tracking, asymmetrical knowledge distribution where agents only know what they need, and parallel task execution with dependency management.
+## Brand Line
+> Multi-agent orchestration with provenance tracking — the Cocapn fleet's swarm brain.
 
 ## Features
 
@@ -400,16 +399,13 @@ import type {
 } from '@superinstance/equipment-swarm-coordinator';
 ```
 
-## License
+## Fleet Context
 
-MIT
+Part of the Cocapn fleet. Related repos:
+- [Equipment-Consensus-Engine](https://github.com/SuperInstance/Equipment-Consensus-Engine) — multi-agent deliberation
+- [plato-sdk](https://github.com/SuperInstance/plato-sdk) — agent communication protocol
+- [JetsonClaw1-vessel](https://github.com/Lucineer/JetsonClaw1-vessel) — edge-native agent case study
+- [AIR](https://github.com/SuperInstance/AIR) — adaptive intelligence runtime
 
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines before submitting PRs.
-
-## Related Packages
-
-- `@superinstance/starter-agent` - Base agent framework
-- `@superinstance/equipment-consensus-engine` - Consensus mechanisms
-- `@superinstance/equipment-memory-hierarchy` - Memory management
+---
+🦐 Cocapn fleet — lighthouse keeper architecture

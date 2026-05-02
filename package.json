@@ -1,27 +1,23 @@
 {
   "name": "@superinstance/equipment-swarm-coordinator",
   "version": "1.0.0",
-  "description": "Equipment for orchestrating multiple agents in origin-centric networks with asymmetrical knowledge distribution",
+  "description": "Swarm coordination equipment for SuperInstance agents",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+<<<<<<< Updated upstream
     "build": "tsc",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build",
     "test": "vitest run"
+=======
+    "prepublishOnly": "echo nobuild"
+>>>>>>> Stashed changes
   },
-  "keywords": [
-    "superinstance",
-    "equipment",
-    "swarm",
-    "coordinator",
-    "multi-agent",
-    "orchestration",
-    "asymmetric-knowledge",
-    "distributed-ai"
-  ],
+  "keywords": ["superinstance", "equipment", "swarm", "multi-agent"],
   "author": "SuperInstance Ecosystem",
   "license": "MIT",
+<<<<<<< Updated upstream
   "devDependencies": {
     "typescript": "^5.0.0",
     "vitest": "^3.0.0"
@@ -40,4 +36,10 @@
     "url": "https://github.com/superinstance/equipment-swarm-coordinator/issues"
   },
   "homepage": "https://github.com/superinstance/equipment-swarm-coordinator#readme"
+=======
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superinstance/equipment-swarm-coordinator"
+  }
+>>>>>>> Stashed changes
 }
