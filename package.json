@@ -9,7 +9,6 @@
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build",
     "test": "vitest run"
-    "prepublishOnly": "echo nobuild"
   },
   "keywords": ["superinstance", "equipment", "swarm", "multi-agent"],
   "author": "SuperInstance Ecosystem",
@@ -26,14 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/superinstance/equipment-swarm-coordinator.git"
+    "url": "https://github.com/SuperInstance/Equipment-Swarm-Coordinator"
   },
   "bugs": {
-    "url": "https://github.com/superinstance/equipment-swarm-coordinator/issues"
+    "url": "https://github.com/SuperInstance/Equipment-Swarm-Coordinator/issues"
   },
-  "homepage": "https://github.com/superinstance/equipment-swarm-coordinator#readme"
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/superinstance/equipment-swarm-coordinator"
-  }
+  "homepage": "https://github.com/SuperInstance/Equipment-Swarm-Coordinator#readme"
 }
